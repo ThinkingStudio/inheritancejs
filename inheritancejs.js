@@ -1,0 +1,1 @@
+function inherit(t,r){var e=function(){t.apply(this,arguments),r&&r.apply(this,arguments)};return e.prototype=new t,e.constructor=e,e.prototype.parent=t.prototype,e}module.exports=inherit;

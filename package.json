@@ -1,0 +1,47 @@
+{
+  "name": "inheritancejs",
+  "id": "inheritancejs",
+  "version": "0.0.1",
+  "description": "A simple utility for implementing javascript inheritance",
+  "keywords": [
+    "inheritance",
+    "extend"
+  ],
+  "author": "Gelin Luo <greenlaw110@gmail.com>",
+  "homepage": "https://github.com/greenlaw110/inheritancejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenlaw110/inheritancejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/greenlaw110/inheritancejs/issues"
+  },
+  "dependencies": {
+    "JSON": "*"
+  },
+  "main": "./inheritancejs.js",
+  "engines": {
+    "node": ">=0.4"
+  },
+  "scripts": {
+    "test": "gulp test-build"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/greenlaw110/inheritancejs/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "gulp-mocha": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-streamify": "*",
+    "assert": "*",
+    "should": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "del": "*"
+  }
+}
