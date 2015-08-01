@@ -1,4 +1,7 @@
 function inherit(Parent, Constructor) {
+    if (Parent == undefined) {
+        throw 'Parent class not defined';
+    }
     var Child = function() {
         Parent.apply(this, arguments);
         if (Constructor) {
